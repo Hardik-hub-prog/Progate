@@ -1,0 +1,53 @@
+.main {
+    text-align: center;
+}
+   
+
+body{
+    
+    background-image: url("top.png");
+    background-size: cover;
+    color:darksalmon;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+input[type="text"]
+{
+    margin-bottom: 15px;
+}
+   
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,select 
+{                        
+    font-family:sans-serif;
+    padding-bottom: 5px;
+    margin-bottom: auto;
+}
+
+h2{
+    text-shadow: 1px 2px cornsilk;
+    font-size: 40px;
+    text-decoration: underline;
+    
+
+}
+.para{
+    font-size:40px;
+    color:burlywood;
+}
+.sub input{
+    font-size: 30px;
+}
+input[type="submit"]{
+    width:200px;
+    background-color: burlywood;
+    cursor: pointer;
+    color: coral;
+}
+

@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color:darkgrey;
+}
+div{
+ padding:35px;
+}
+h1.center{
+    text-align:center;
+    color:rgb(3, 3, 19);
+    
+}
+
+body{
+    background-color: lightgrey;
+}
+main{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding:7px;
+    overflow: hidden;
+}
+nav a:link{
+    color:darkgray;
+}
+ nav a:visited{
+    color: darkgray;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: none;;
+    color:lightgrey;
+}
+nav a:active{
+    color:darkgray;
+}
+footer{
+    background-color: black;
+    padding:7px;
+    overflow: hidden;
+
+}
+footer a:link{
+    color:darkgray;
+}
+footer a:visited{
+    color: darkgray;
+    text-align: center;
+}
+footer a:hover{
+    text-decoration: none;;
+    color:lightgrey;
+}
+footer a:active{
+    color:darkgray;
+}
