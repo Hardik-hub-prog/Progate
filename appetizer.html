@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="pally.css">
+</head>
+
+<body>
+    <h2 class="main"> FILL THE APLLICATION FORM</h2><hr>
+    <p class="para">* This is the required field</p>
+    <form action="/actoin_page.php ">
+        <label for="fname">* First Name:</label>
+        <input type="text" id="fname" name="fname" required ><br><br>
+        <label for ="lname">* Last Name:</label>
+        <input type="text" id="lname" name="lname"  required><br><br>
+        <label for ="Ph No">* Contact Number:</label>
+        <input type="number" id ="Ph No" name="Ph No" required><br><br>
+        <fieldset>
+            <legend>
+        <p>*Gender</p>
+        </legend>
+        
+        <label for="gender">Male</label>
+        <input type="radio" name="Male"  value="Male" required><br><br>
+
+        <label for="gender">Female</label>
+        <input type="radio" name="Male" value="Male" required><br><br>
+        <label for="gender">Others</label>
+        <input type="radio" name="Male" value="Male" required>
+      </fieldset><br>
+      <p> *E-mail:
+      <input type="email"> </p><br> <br>
+      <p>Address:<textarea name="Address" id="address" cols="50" rows="4"></textarea> </p><br>
+
+      <p>*Pincode: <input type="number" name="pincode" id="pincode" required></p><br>
+
+      <h2>Payment Information</h2>
+      <p>Card Type:
+      <select name="Card_type" id="Card_type">
+          <option value=" ">--select a card type--</option>
+          <option value="visa">Visa</option>
+          <option value="Rupay">Rupay</option>
+          <option value="Master card">Master card</option>
+
+      </select>
+      </p>
+      <p>
+          *Card Number:
+          <input type="number" name="card number" id="card number" required>
+      </p>
+      <p>
+          *Expiration Date:<input type="date" name="Expiration date" id="Expiration date" required>
+      </p>
+      <p>
+          *Cvv:<input type="password" name="cvv" required>
+      </p>
+      <div class="sub">
+        <input type="Submit" value="submit" ><br>
+</div>
+    
+    </form>
+   
+</body>
+</html>
